@@ -9,7 +9,7 @@
     "publisher": "HamletSargsyan",
     "icon": "./assets/icon.png",
     "repository": {
-        "url": "https://github.com/HamletSargsyan/lazurite-vscode"
+        "url": "https://github.com/0xM4LL0C/lazurite-vscode"
     },
     "license": "MIT",
     "categories": [
@@ -23,8 +23,8 @@
         "snippets",
         "syntax highlighting"
     ],
-    "capabilities" : {
-        "hoverProvider" : "true"
+    "capabilities": {
+        "hoverProvider": "true"
     },
     "contributes": {
         "menus": {
@@ -41,7 +41,6 @@
                 "title": "run file",
                 "command": "lazurite.runFile",
                 "icon": "$(run)"
-
             }
         ],
         "configuration": {
